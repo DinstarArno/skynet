@@ -42,7 +42,10 @@ Official Lua versions can also be used as long as the Makefile is edited.
 * The FAQ in wiki https://github.com/cloudwu/skynet/wiki/FAQ
 
 ## QA
-Q: lua.c:82:10: fatal error: readline/readline.h: No such file or directory
-A: 缺少libreadline-dev依赖包
-   centos: yum install readline-devel
-   debian: apt-get install libreadline-dev.
+**Q:** lua.c:82:10: fatal error: readline/readline.h: No such file or directory
+
+**A:** 缺少libreadline-dev依赖包
+
+centos: yum install readline-devel
+
+debian: apt-get install libreadline-dev.
